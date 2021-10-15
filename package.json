@@ -1,0 +1,41 @@
+{
+  "name": "anipay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cloudinary": "^1.25.1",
+    "cron": "^1.8.2",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "js-base64": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mapbox-gl": "^2.3.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "multer": "^1.4.2",
+    "node-cron": "^3.0.0",
+    "otp-generator": "^2.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.2.0",
+    "sha-256-js": "^1.0.3",
+    "socket.io": "^3.1.1",
+    "strong-soap": "^3.2.1",
+    "superagent": "^6.1.0",
+    "tedious": "^11.0.1",
+    "uuid-v4": "^0.1.0",
+    "whatsapp-web.js": "^1.14.1",
+    "xml-js": "^1.6.11"
+  }
+}

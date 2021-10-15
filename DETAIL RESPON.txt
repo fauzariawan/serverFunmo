@@ -1,0 +1,2 @@
+01 ada respon dari tiket_deposit bahwasanya tiket deposit berhasil dibuat
+02 ada respon dari outbox bahwasanya tiket deposit sebelumnya dengan nominal yang sama belum di bayar

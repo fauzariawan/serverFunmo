@@ -1,0 +1,21 @@
+{
+    kode:111
+    kode_tiket_deposit:111 
+    rc: '00',
+    rd: 'Transaksi Anda sedang dalam proses, Anda akan melakukan pembayaran menggunakan Alfamart, Silakan melakukan pembayaran sejumlah IDR 21.500-. Order ID Anda adalah 1001355800359. RAHASIA Dilarang menyebarkan ke ORANG Tdk DIKENAL',
+    request_time: '2021-09-24 11:47:22.602405',
+    data: {
+      reff_id: '355800359',
+      payment_code: '1001355800359',
+      order_id: 'TRX2433181105BB47019C470',
+      request_key: '',
+      url_listener: 'http://202.162.195.243:52639/merchant/listener',
+      payment_method: 'Alfamart',
+      payment_method_code: 'ALFAMART',
+      fee_admin: 0,
+      total_amount: 21500,
+      spi_status_url: 'https://secure-payment.winpay.id/guidance/index/alfamart?payid=da49e8e204c4c3fc77fcd16ef2b1b8fa'
+    },
+    response_time: '2021-09-24 11:47:32.108314',
+    expired_time: response_time + 2 jam
+  }

@@ -1,0 +1,42 @@
+{
+    "development": {
+        "username": "sa",
+        "password": "qwerty1090",
+        "database": "otomax 23fsdja*a/2la/a8202",
+        "host": "localhost",
+        "port": 1433,
+        "dialect": "mssql",
+        "dialectOptions": {
+            "options": {
+                "instanceName": "SQLSERVERFUN",
+                "encrypt": false,
+                "validateBulkLoadParameters": true,
+                "useUTC": false
+                }
+            },
+        "timezone": "+07:00"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "urui30vbjpgrwk5",
+        "password": "Qwerty1090*",
+        "database": "dgqff3nnjrazcw3",
+        "host": "eu-az-sql-serv1.database.windows.net",
+        "port": 1433,
+        "dialect": "mssql",
+        "dialectOptions": {
+            "options": {
+                "encrypt": true,
+                "validateBulkLoadParameters": true,
+                "useUTC": false
+            }
+        }
+    }
+}
+  

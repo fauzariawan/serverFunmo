@@ -1,0 +1,28 @@
+const router = require('express').Router()
+const anipay = require('../controllers/anipayController')
+
+router.get('/login', anipay.login)
+router.post(`/balance`, anipay.balance)
+router.get('/pulsaPrepaid', anipay.pulsaPrepaid)
+router.get('/inquiryPlnPrepaid', anipay.inquiryPlnPrepaid)
+router.get('/paymentPlnPrepaid', anipay.paymentPlnPrepaid)
+router.get('/inquiryPlnPostpaid', anipay.inquiryPlnPostpaid)
+router.get('/paymentPlnPostpaid', anipay.paymentPlnPostpaid)
+router.get('/inquiryPlnNontaglis', anipay.inquiryPlnNontaglis)
+router.get('/paymentPlnNontaglis', anipay.paymentPlnNontaglis)
+router.get('/inquiryMultifinance', anipay.inquiryMultifinance)
+router.get('/paymentMultifinance', anipay.paymentMultifinance)
+router.get('/inquiryTelkom', anipay.inquiryTelkom)
+router.get('/paymentTelkom', anipay.paymentTelkom)
+router.get('/inquiryPdam', anipay.inquiryPdam)
+router.get('/paymentPdam', anipay.paymentPdam)
+router.get('/inquiryHpPascabayar', anipay.inquiryHpPascabayar)
+router.get('/paymentHpPascabayar', anipay.paymentHpPascabayar)
+router.get('/inquiryTvBerbayar', anipay.inquiryTvBerbayar)
+router.get('/paymentTvBerbayar', anipay.paymentTvBerbayar)
+router.get('/inquiryBpjsKesehatan', anipay.inquiryBpjsKesehatan)
+router.get('/paymentBpjsKesehatan', anipay.paymentBpjsKesehatan)
+router.get('/inquiryTransfer', anipay.inquiryTransfer)
+
+
+module.exports = router
